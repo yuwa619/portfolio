@@ -1,5 +1,6 @@
 body{
     font-family: 'Nunito', sans-serif;
+    margin: 0px;
 }
 header {
     background-color: #430377;
@@ -7,6 +8,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    position: fixed;
 }
 
 #logo {
@@ -91,6 +93,7 @@ li > a:hover {
      background-color: #430377;
      margin-bottom: 20px;
  }
+ 
 
  h2 {
      text-align: center;
