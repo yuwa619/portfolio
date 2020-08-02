@@ -2,7 +2,7 @@ body{
     font-family: 'Nunito', sans-serif;
     margin: 0px;
 }
-header {
+/* header {
     background-color: #430377;
     display: flex;
     flex-direction: row;
@@ -37,7 +37,9 @@ li > a {
 
 li > a:hover {
     text-decoration: underline;
-}
+} */
+
+
 
 #welcome-section {
     display: flex;
@@ -152,6 +154,7 @@ li > a:hover {
     .nav-link {
     display: flex;
     flex-direction: column;
+    
 }
 #welcome-section {
     display: flex;
@@ -208,6 +211,7 @@ li > a:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 100px;
 }
 .site-title {
     text-align: center;
